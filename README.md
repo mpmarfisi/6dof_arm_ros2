@@ -1,1 +1,1 @@
-# 6dof_arm_ros2
+# 6DOF Arm ROS2

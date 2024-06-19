@@ -1,0 +1,203 @@
+[0.329s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.329s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=3, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e11715f7c40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e11715f7730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e11715f7730>>, mixin_verb=('build',))
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.865s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joaco/proy_ws'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.885s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extensions ['ignore', 'ignore_ament_install']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extension 'ignore'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extension 'ignore_ament_install'
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extensions ['colcon_pkg']
+[0.886s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extension 'colcon_pkg'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extensions ['colcon_meta']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extension 'colcon_meta'
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extensions ['ros']
+[0.887s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_gripper_description) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_gripper_description' with type 'ros.ament_cmake' and name 'my_gripper_description'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.895s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.962s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.976s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 64 installed packages in /home/joaco/ws_moveit2/install
+[0.980s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 359 installed packages in /opt/ros/humble
+[0.984s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_target' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'my_gripper_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.164s] DEBUG:colcon.colcon_core.verb:Building package 'my_gripper_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaco/proy_ws/build/my_gripper_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaco/proy_ws/install/my_gripper_description', 'merge_install': False, 'path': '/home/joaco/proy_ws/src/my_gripper_description', 'symlink_install': False, 'test_result_base': None}
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.165s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.165s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/joaco/proy_ws/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/joaco/proy_ws/install/my_robot_description', 'merge_install': False, 'path': '/home/joaco/proy_ws/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.165s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.167s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaco/proy_ws/src/my_gripper_description' with build type 'ament_cmake'
+[1.168s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaco/proy_ws/src/my_gripper_description'
+[1.177s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.177s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.177s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.192s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/joaco/proy_ws/src/my_robot_description' with build type 'ament_cmake'
+[1.192s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/joaco/proy_ws/src/my_robot_description'
+[1.192s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.192s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaco/proy_ws/build/my_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_gripper_description -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/my_gripper_description
+[1.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaco/proy_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_robot_description -- -j3 -l3
+[1.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaco/proy_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_robot_description -- -j3 -l3
+[1.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaco/proy_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_robot_description
+[1.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaco/proy_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_robot_description
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description' for CMake module files
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description' for CMake config files
+[1.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/bin'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/lib/python3.10/site-packages'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/bin'
+[1.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[1.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaco/proy_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.709s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.711s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description' for CMake module files
+[1.712s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description' for CMake config files
+[1.712s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.714s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/bin'
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/lib/python3.10/site-packages'
+[1.715s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_robot_description/bin'
+[1.716s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.717s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.sh'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.bash'
+[1.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaco/proy_ws/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[3.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaco/proy_ws/build/my_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_gripper_description -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/my_gripper_description
+[3.337s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaco/proy_ws/build/my_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_gripper_description -- -j3 -l3
+[3.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaco/proy_ws/build/my_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_gripper_description -- -j3 -l3
+[3.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/joaco/proy_ws/build/my_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_gripper_description
+[3.568s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_gripper_description)
+[3.569s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/joaco/proy_ws/build/my_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_gripper_description
+[3.569s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description' for CMake module files
+[3.570s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description' for CMake config files
+[3.570s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_gripper_description', 'cmake_prefix_path')
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.ps1'
+[3.571s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.dsv'
+[3.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.sh'
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/bin'
+[3.572s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/lib/pkgconfig/my_gripper_description.pc'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/lib/python3.10/site-packages'
+[3.573s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/bin'
+[3.573s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.ps1'
+[3.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.dsv'
+[3.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.sh'
+[3.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.bash'
+[3.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.zsh'
+[3.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaco/proy_ws/install/my_gripper_description/share/colcon-core/packages/my_gripper_description)
+[3.657s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_gripper_description)
+[3.657s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description' for CMake module files
+[3.658s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description' for CMake config files
+[3.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_gripper_description', 'cmake_prefix_path')
+[3.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.ps1'
+[3.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.dsv'
+[3.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/hook/cmake_prefix_path.sh'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/bin'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/lib/pkgconfig/my_gripper_description.pc'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/lib/python3.10/site-packages'
+[3.661s] Level 1:colcon.colcon_core.environment:checking '/home/joaco/proy_ws/install/my_gripper_description/bin'
+[3.662s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.ps1'
+[3.663s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.dsv'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.sh'
+[3.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.bash'
+[3.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.zsh'
+[3.665s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/joaco/proy_ws/install/my_gripper_description/share/colcon-core/packages/my_gripper_description)
+[3.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.666s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.667s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.681s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.681s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.713s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaco/proy_ws/install/local_setup.ps1'
+[3.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joaco/proy_ws/install/_local_setup_util_ps1.py'
+[3.719s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaco/proy_ws/install/setup.ps1'
+[3.726s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaco/proy_ws/install/local_setup.sh'
+[3.730s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/joaco/proy_ws/install/_local_setup_util_sh.py'
+[3.731s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaco/proy_ws/install/setup.sh'
+[3.738s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaco/proy_ws/install/local_setup.bash'
+[3.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaco/proy_ws/install/setup.bash'
+[3.754s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/joaco/proy_ws/install/local_setup.zsh'
+[3.755s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/joaco/proy_ws/install/setup.zsh'

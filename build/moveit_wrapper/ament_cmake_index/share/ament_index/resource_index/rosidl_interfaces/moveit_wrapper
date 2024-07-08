@@ -1,0 +1,12 @@
+srv/MoveToJointPosition.idl
+srv/MoveToJointPosition.srv
+srv/MoveToJointPosition_Request.msg
+srv/MoveToJointPosition_Response.msg
+srv/MoveToPose.idl
+srv/MoveToPose.srv
+srv/MoveToPose_Request.msg
+srv/MoveToPose_Response.msg
+srv/String.idl
+srv/String.srv
+srv/String_Request.msg
+srv/String_Response.msg

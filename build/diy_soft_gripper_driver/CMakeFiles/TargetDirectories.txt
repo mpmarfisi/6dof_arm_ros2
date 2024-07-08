@@ -1,0 +1,11 @@
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/uninstall.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/diy_soft_gripper_driver_uninstall.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/server.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/client.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/test.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/edit_cache.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/rebuild_cache.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/list_install_components.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/install.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/install/local.dir
+/home/joaco/proy_ws/build/diy_soft_gripper_driver/CMakeFiles/install/strip.dir

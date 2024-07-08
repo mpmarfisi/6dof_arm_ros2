@@ -1,0 +1,3 @@
+/home/joaco/proy_ws/build/moveit_wrapper/rosidl_adapter/moveit_wrapper:srv/MoveToPose.idl
+/home/joaco/proy_ws/build/moveit_wrapper/rosidl_adapter/moveit_wrapper:srv/MoveToJointPosition.idl
+/home/joaco/proy_ws/build/moveit_wrapper/rosidl_adapter/moveit_wrapper:srv/String.idl

@@ -1,0 +1,8 @@
+{
+  "package_name": "moveit_wrapper",
+  "non_idl_tuples": [
+    "/home/joaco/proy_ws/src/my_robot_moveit/moveit_wrapper:srv/MoveToPose.srv",
+    "/home/joaco/proy_ws/src/my_robot_moveit/moveit_wrapper:srv/MoveToJointPosition.srv",
+    "/home/joaco/proy_ws/src/my_robot_moveit/moveit_wrapper:srv/String.srv"
+  ]
+}

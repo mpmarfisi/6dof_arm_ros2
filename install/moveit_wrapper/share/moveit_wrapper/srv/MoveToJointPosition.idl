@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from moveit_wrapper/srv/MoveToJointPosition.srv
+// generated code does not contain a copyright notice
+
+
+module moveit_wrapper {
+  module srv {
+    struct MoveToJointPosition_Request {
+      sequence<double> joint_position;
+    };
+    struct MoveToJointPosition_Response {
+      boolean success;
+    };
+  };
+};

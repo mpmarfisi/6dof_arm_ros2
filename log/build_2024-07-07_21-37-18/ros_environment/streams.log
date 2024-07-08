@@ -1,0 +1,21 @@
+[2.427s] Invoking command in '/home/joaco/proy_ws/src/my_robot_moveit/ros_environment': PYTHONPATH=/home/joaco/proy_ws/build/ros_environment/prefix_override:/home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_environment build --build-base /home/joaco/proy_ws/build/ros_environment/build install --record /home/joaco/proy_ws/build/ros_environment/install.log --single-version-externally-managed install_data
+[3.235s] running egg_info
+[3.238s] writing ../../../build/ros_environment/ros_environment.egg-info/PKG-INFO
+[3.239s] writing dependency_links to ../../../build/ros_environment/ros_environment.egg-info/dependency_links.txt
+[3.240s] writing entry points to ../../../build/ros_environment/ros_environment.egg-info/entry_points.txt
+[3.240s] writing requirements to ../../../build/ros_environment/ros_environment.egg-info/requires.txt
+[3.240s] writing top-level names to ../../../build/ros_environment/ros_environment.egg-info/top_level.txt
+[3.248s] reading manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+[3.252s] writing manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+[3.252s] running build
+[3.252s] running build_py
+[3.256s] running install
+[3.256s] running install_lib
+[3.263s] running install_data
+[3.263s] running install_egg_info
+[3.269s] removing '/home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment-0.0.0-py3.10.egg-info' (and everything under it)
+[3.270s] Copying ../../../build/ros_environment/ros_environment.egg-info to /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment-0.0.0-py3.10.egg-info
+[3.272s] running install_scripts
+[3.339s] Installing joy_handler script to /home/joaco/proy_ws/install/ros_environment/lib/ros_environment
+[3.341s] writing list of installed files to '/home/joaco/proy_ws/build/ros_environment/install.log'
+[3.438s] Invoked command in '/home/joaco/proy_ws/src/my_robot_moveit/ros_environment' returned '0': PYTHONPATH=/home/joaco/proy_ws/build/ros_environment/prefix_override:/home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_environment build --build-base /home/joaco/proy_ws/build/ros_environment/build install --record /home/joaco/proy_ws/build/ros_environment/install.log --single-version-externally-managed install_data

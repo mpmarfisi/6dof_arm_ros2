@@ -1,0 +1,32 @@
+[0.097s] Invoking command in '/home/joaco/proy_ws/build/my_robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/proy_ws/install/ros_environment:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_robot_moveit -- -j3 -l3
+[0.471s] Invoked command in '/home/joaco/proy_ws/build/my_robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/proy_ws/install/ros_environment:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_robot_moveit -- -j3 -l3
+[0.693s] Invoking command in '/home/joaco/proy_ws/build/my_robot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/proy_ws/install/ros_environment:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_robot_moveit
+[0.747s] -- Install configuration: ""
+[0.748s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//launch
+[0.749s] -- Installing: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//launch/robot.launch.py
+[0.749s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//launch/complete.launch.py
+[0.750s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//config
+[0.750s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//config/controllers.yaml
+[0.750s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//config/ompl_planning.yaml
+[0.750s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//config/kinematics.yaml
+[0.760s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//srdf
+[0.760s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//srdf/robot.srdf.xacro
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//srdf/robot_macro.srdf.xacro
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//rviz
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit//rviz/rviz_config.rviz
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/ament_index/resource_index/package_run_dependencies/my_robot_moveit
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/ament_index/resource_index/parent_prefix_path/my_robot_moveit
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/environment/ament_prefix_path.sh
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/environment/ament_prefix_path.dsv
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/environment/path.sh
+[0.761s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/environment/path.dsv
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/local_setup.bash
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/local_setup.sh
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/local_setup.zsh
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/local_setup.dsv
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/package.dsv
+[0.762s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/ament_index/resource_index/packages/my_robot_moveit
+[0.765s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/cmake/my_robot_moveitConfig.cmake
+[0.766s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/cmake/my_robot_moveitConfig-version.cmake
+[0.766s] -- Up-to-date: /home/joaco/proy_ws/install/my_robot_moveit/share/my_robot_moveit/package.xml
+[0.785s] Invoked command in '/home/joaco/proy_ws/build/my_robot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/proy_ws/install/ros_environment:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_robot_moveit

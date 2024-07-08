@@ -1,0 +1,345 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found moveit_common: 2.5.5 (/home/joaco/ws_moveit2/install/moveit_common/share/moveit_common/cmake)
+-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found tf2_eigen: 0.25.6 (/opt/ros/humble/share/tf2_eigen/cmake)
+-- Found rclcpp_lifecycle: 16.0.9 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found moveit_core: 2.5.5 (/home/joaco/ws_moveit2/install/moveit_core/share/moveit_core/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found moveit_ros_planning_interface: 2.5.5 (/home/joaco/ws_moveit2/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found control_msgs: 4.5.0 (/opt/ros/humble/share/control_msgs/cmake)
+-- Found moveit_servo: 2.5.5 (/home/joaco/ws_moveit2/install/moveit_servo/share/moveit_servo/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/joaco/proy_ws/src/my_robot_moveit/moveit_wrapper/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joaco/proy_ws/build/moveit_wrapper
+[  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_copy_moveit_wrapper
+running egg_info
+creating moveit_wrapper.egg-info
+writing moveit_wrapper.egg-info/PKG-INFO
+writing dependency_links to moveit_wrapper.egg-info/dependency_links.txt
+writing top-level names to moveit_wrapper.egg-info/top_level.txt
+writing manifest file 'moveit_wrapper.egg-info/SOURCES.txt'
+reading manifest file 'moveit_wrapper.egg-info/SOURCES.txt'
+writing manifest file 'moveit_wrapper.egg-info/SOURCES.txt'
+[  3%] Built target ament_cmake_python_build_moveit_wrapper_egg
+[  5%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper/srv/detail/move_to_pose__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper/srv/detail/move_to_joint_position__functions.c.o[0m
+[  7%] Built target moveit_wrapper__cpp
+[  9%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_c.dir/rosidl_generator_c/moveit_wrapper/srv/detail/string__functions.c.o[0m
+[ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 15%] [32m[1mLinking C shared library libmoveit_wrapper__rosidl_generator_c.so[0m
+[ 15%] Built target moveit_wrapper__rosidl_generator_c
+[ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper/srv/move_to_pose__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper/srv/detail/dds_fastrtps/move_to_pose__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper/srv/detail/move_to_pose__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper/srv/move_to_joint_position__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper/srv/detail/dds_fastrtps/move_to_joint_position__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_wrapper/srv/string__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper/srv/detail/move_to_joint_position__type_support.cpp.o[0m
+[ 32%] [32m[1mLinking CXX shared library libmoveit_wrapper__rosidl_typesupport_cpp.so[0m
+[ 32%] Built target moveit_wrapper__rosidl_typesupport_cpp
+[ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_wrapper/srv/detail/dds_fastrtps/string__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_wrapper/srv/detail/string__type_support.cpp.o[0m
+[ 40%] [32m[1mLinking CXX shared library libmoveit_wrapper__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 42%] [32m[1mLinking CXX shared library libmoveit_wrapper__rosidl_typesupport_introspection_cpp.so[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper/srv/detail/move_to_pose__type_support_c.cpp.o[0m
+[ 44%] Built target moveit_wrapper__rosidl_typesupport_fastrtps_cpp
+[ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 46%] Built target moveit_wrapper__rosidl_typesupport_introspection_cpp
+[ 48%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper/srv/detail/move_to_joint_position__type_support_c.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper/srv/move_to_pose__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper/srv/move_to_joint_position__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper/srv/detail/move_to_pose__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_wrapper/srv/string__type_support.cpp.o[0m
+[ 59%] [32m[1mLinking CXX shared library libmoveit_wrapper__rosidl_typesupport_c.so[0m
+[ 61%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper/srv/detail/move_to_joint_position__type_support.c.o[0m
+[ 63%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_wrapper/srv/detail/string__type_support.c.o[0m
+[ 63%] Built target moveit_wrapper__rosidl_typesupport_c
+[ 65%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_lib.dir/src/moveit_wrapper.cpp.o[0m
+[ 67%] [32m[1mLinking C shared library libmoveit_wrapper__rosidl_typesupport_introspection_c.so[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_wrapper/srv/detail/string__type_support_c.cpp.o[0m
+[ 69%] Built target moveit_wrapper__rosidl_typesupport_introspection_c
+[ 71%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_node.dir/src/moveit_wrapper_node.cpp.o[0m
+[ 73%] [32m[1mLinking CXX shared library libmoveit_wrapper__rosidl_typesupport_fastrtps_c.so[0m
+[ 73%] Built target moveit_wrapper__rosidl_typesupport_fastrtps_c
+[ 75%] [32mBuilding CXX object CMakeFiles/moveit_wrapper_node.dir/src/moveit_wrapper.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libmoveit_wrapper_lib.so[0m
+[ 78%] [32m[1mLinking CXX executable moveit_wrapper_node[0m
+[ 78%] Built target moveit_wrapper_lib
+[ 78%] Built target moveit_wrapper_node
+[ 78%] Built target moveit_wrapper
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target moveit_wrapper__py
+[ 82%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper/srv/_move_to_joint_position_s.c.o[0m
+[ 84%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper/srv/_move_to_pose_s.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_generator_py.dir/rosidl_generator_py/moveit_wrapper/srv/_string_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper/libmoveit_wrapper__rosidl_generator_py.so[0m
+[ 88%] Built target moveit_wrapper__rosidl_generator_py
+[ 92%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] Built target moveit_wrapper__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target moveit_wrapper__rosidl_typesupport_introspection_c__pyext
+[ 98%] [32mBuilding C object CMakeFiles/moveit_wrapper__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target moveit_wrapper__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/ament_index/resource_index/rosidl_interfaces/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/string.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/move_to_joint_position.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/move_to_pose.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__functions.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__functions.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__type_support.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__struct.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__functions.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__struct.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__type_support.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__struct.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__functions.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__type_support.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__functions.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__functions.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/library_path.sh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/library_path.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_generator_c.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/move_to_pose.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/string.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/move_to_joint_position.hpp
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__builder.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__traits.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__struct.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__traits.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__struct.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__builder.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__builder.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__traits.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__struct.hpp
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/dds_fastrtps
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__type_support.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__type_support.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__rosidl_typesupport_introspection_c.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__rosidl_typesupport_introspection_c.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__type_support.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_c.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__type_support.cpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/move_to_joint_position__type_support.cpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper/srv/detail/string__type_support.cpp
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/pythonpath.sh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/pythonpath.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper-0.0.0-py3.10.egg-info
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/libmoveit_wrapper__rosidl_generator_py.so
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_string.py
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_string_s.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_joint_position.py
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_pose_s.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_pose.py
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/__init__.py
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_joint_position_s.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/_moveit_wrapper_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/__init__.py
+Listing '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper'...
+Compiling '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/__init__.py'...
+Listing '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv'...
+Compiling '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/__init__.py'...
+Compiling '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_joint_position.py'...
+Compiling '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_move_to_pose.py'...
+Compiling '/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/srv/_string.py'...
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/local/lib/python3.10/dist-packages/moveit_wrapper/moveit_wrapper_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_generator_py.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper__rosidl_generator_py.so" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToPose.idl
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToJointPosition.idl
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/String.idl
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToPose.srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToPose_Request.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToPose_Response.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToJointPosition.srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToJointPosition_Request.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/MoveToJointPosition_Response.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/String.srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/String_Request.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/srv/String_Response.msg
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper_lib.so
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/libmoveit_wrapper_lib.so" to ""
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/include/moveit_wrapper/moveit_wrapper.h
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/lib/moveit_wrapper/moveit_wrapper_node
+-- Set runtime path of "/home/joaco/proy_ws/install/moveit_wrapper/lib/moveit_wrapper/moveit_wrapper_node" to ""
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//launch
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//launch/moveit_wrapper.launch.py
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//srv/MoveToPose.srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//srv/String.srv
+-- Up-to-date: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper//srv/MoveToJointPosition.srv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/ament_index/resource_index/package_run_dependencies/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/ament_index/resource_index/parent_prefix_path/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/ament_prefix_path.sh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/ament_prefix_path.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/path.sh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/environment/path.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.bash
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.sh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.zsh
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/local_setup.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/package.dsv
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/ament_index/resource_index/packages/moveit_wrapper
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_generator_cExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_generator_cppExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_cExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapper__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_generator_pyExport.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/export_moveit_wrapper__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapperConfig.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/cmake/moveit_wrapperConfig-version.cmake
+-- Installing: /home/joaco/proy_ws/install/moveit_wrapper/share/moveit_wrapper/package.xml

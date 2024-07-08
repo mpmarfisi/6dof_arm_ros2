@@ -1,0 +1,187 @@
+[0.107s] Invoking command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_robot_driver -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_robotarm_wer24_driver
+[0.385s] -- The C compiler identification is GNU 11.4.0
+[0.575s] -- The CXX compiler identification is GNU 11.4.0
+[0.593s] -- Detecting C compiler ABI info
+[0.917s] -- Detecting C compiler ABI info - done
+[0.938s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.939s] -- Detecting C compile features
+[0.941s] -- Detecting C compile features - done
+[0.952s] -- Detecting CXX compiler ABI info
+[1.311s] -- Detecting CXX compiler ABI info - done
+[1.336s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.336s] -- Detecting CXX compile features
+[1.338s] -- Detecting CXX compile features - done
+[1.366s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.971s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.528s] -- Found backward_ros: 1.0.2 (/opt/ros/humble/share/backward_ros/cmake)
+[2.589s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[2.612s] -- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+[2.613s] -- BACKWARD_HAS_UNWIND=1
+[2.613s] -- BACKWARD_HAS_BACKTRACE=0
+[2.614s] -- BACKWARD_HAS_BACKTRACE_SYMBOL=0
+[2.614s] -- BACKWARD_HAS_DW=1
+[2.614s] -- BACKWARD_HAS_BFD=0
+[2.617s] -- Found Backward: /opt/ros/humble/share/backward_ros/cmake  
+[2.650s] -- Found controller_manager: 2.41.0 (/opt/ros/humble/share/controller_manager/cmake)
+[3.055s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.117s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.202s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.316s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.477s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.581s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.623s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.817s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.186s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.194s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.270s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.297s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.337s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[7.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.485s] -- Looking for pthread.h
+[8.020s] -- Looking for pthread.h - found
+[8.021s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.518s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.527s] -- Found Threads: TRUE  
+[11.157s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[11.201s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[11.370s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[11.604s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[11.611s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.611s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.328s] -- Found diy_robotarm_wer24_description: 0.0.0 (/home/joaco/ws_moveit2/install/diy_robotarm_wer24_description/share/diy_robotarm_wer24_description/cmake)
+[13.366s] -- Found diy_soft_gripper_description: 0.0.0 (/home/joaco/ws_moveit2/install/diy_soft_gripper_description/share/diy_soft_gripper_description/cmake)
+[13.409s] -- Found diy_robot_full_cell_description: 0.0.0 (/home/joaco/ws_moveit2/install/diy_robot_full_cell_description/share/diy_robot_full_cell_description/cmake)
+[13.454s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[13.500s] -- Found ros2_control: 2.41.0 (/opt/ros/humble/share/ros2_control/cmake)
+[13.542s] -- Found ros2_controllers: 2.34.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[13.597s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[16.505s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.507s] -- Configured cppcheck include dirs: /home/joaco/proy_ws/src/my_robot_driver/include
+[16.507s] -- Configured cppcheck exclude dirs and/or files: 
+[16.521s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.529s] -- Added test 'lint_cmake' to check CMake code style
+[16.550s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.558s] -- Added test 'uncrustify' to check C / C++ code style
+[16.558s] -- Configured uncrustify additional arguments: 
+[16.574s] -- Added test 'xmllint' to check XML markup files
+[16.606s] -- Configuring done
+[16.893s] -- Generating done
+[16.907s] -- Build files have been written to: /home/joaco/proy_ws/build/diy_robotarm_wer24_driver
+[17.036s] Invoked command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_robot_driver -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_robotarm_wer24_driver
+[17.037s] Invoking command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_robotarm_wer24_driver -- -j3 -l3
+[17.641s] [ 50%] [32mBuilding CXX object CMakeFiles/esp32_interface_plugin.dir/src/esp32_interface.cpp.o[0m
+[29.822s] In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:22[m[K,
+[29.822s]                  from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[29.822s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/data_format.hpp:23:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.823s]    23 |     struct __attribute__((packed)) [01;35m[K{[m[K
+[29.823s]       |                                    [01;35m[K^[m[K
+[29.823s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/data_format.hpp:37:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[29.823s]    37 |     struct __attribute__((packed)) [01;35m[K{[m[K
+[29.823s]       |                                    [01;35m[K^[m[K
+[29.825s] In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[29.826s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::readData()[m[K’:
+[29.826s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:102:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[29.826s]   102 |     for (auto i = 0; [01;35m[Ki < hw_states_axisPositions.size()[m[K; i++) {
+[29.827s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.827s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:99:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbytesReceived[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.827s]    99 |     int [01;35m[KbytesReceived[m[K = recv(socketConnection_, &response, sizeof(response), 0);
+[29.827s]       |         [01;35m[K^~~~~~~~~~~~~[m[K
+[29.827s] In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[29.827s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::sendData()[m[K’:
+[29.828s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:114:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[29.828s]   114 |     for (auto i = 0; [01;35m[Ki < hw_cmd_axisSetpoints.size()[m[K; i++) {
+[29.828s]       |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.848s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[29.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[29.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[29.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[29.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[29.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[29.850s]                  from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:9[m[K:
+[29.850s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[29.850s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:110:55:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[29.850s]   110 |       RCLCPP_FATAL(rclcpp::get_logger("ESP32_Driver"),[01;35m[K"ERROR during Connection to Robot-IP %s"[m[K,  ssid.c_str(), ipAddress.c_str());
+[29.850s]       |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[29.851s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:95:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.851s]    95 |  ESP32Hardware::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[29.851s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[29.851s] 
+[29.885s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[29.885s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:167:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.885s]   167 | n ESP32Hardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[29.885s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[29.886s] 
+[29.886s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[29.886s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:176:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.886s]   176 | ESP32Hardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+[29.887s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[29.887s] 
+[29.900s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_robot_driver::ESP32Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[29.900s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:185:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.900s]   185 | erface::return_type ESP32Hardware::read([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period) {
+[29.901s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[29.901s] 
+[29.901s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:185:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.901s]   185 | dware::read(const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K) {
+[29.901s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[29.901s] 
+[29.901s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_robot_driver::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[29.902s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:193:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.902s]   193 | rface::return_type ESP32Hardware::write([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period) {
+[29.902s]       |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[29.902s] 
+[29.902s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:193:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[29.902s]   193 | ware::write(const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K) {
+[29.903s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[29.903s] 
+[31.815s] In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[31.815s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::readData()[m[K’:
+[31.815s] [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:105:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[31.816s]   105 |   [01;35m[K}[m[K
+[31.816s]       |   [01;35m[K^[m[K
+[33.965s] [100%] [32m[1mLinking CXX shared library libesp32_interface_plugin.so[0m
+[35.042s] [100%] Built target esp32_interface_plugin
+[35.100s] Invoked command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_robotarm_wer24_driver -- -j3 -l3
+[35.295s] Invoking command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_robotarm_wer24_driver
+[35.346s] -- Install configuration: ""
+[35.346s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/esp32_interface_plugin.xml
+[35.347s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/lib/libesp32_interface_plugin.so
+[35.352s] -- Set runtime path of "/home/joaco/proy_ws/install/diy_robotarm_wer24_driver/lib/libesp32_interface_plugin.so" to ""
+[35.353s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/include
+[35.353s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/include/esp32_robot_driver
+[35.354s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/include/esp32_robot_driver/data_format.hpp
+[35.355s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/include/esp32_robot_driver/esp32_interface.hpp
+[35.356s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/include/esp32_robot_driver/robot_connection.hpp
+[35.357s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//launch
+[35.358s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//launch/visualize.launch.py
+[35.359s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//launch/forward_controller.launch.py
+[35.359s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//launch/trajectory_controller.launch.py
+[35.360s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//config
+[35.361s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver//config/esp32_controller.yaml
+[35.362s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/library_path.sh
+[35.364s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/library_path.dsv
+[35.366s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/ament_index/resource_index/package_run_dependencies/diy_robotarm_wer24_driver
+[35.367s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/ament_index/resource_index/parent_prefix_path/diy_robotarm_wer24_driver
+[35.368s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/ament_prefix_path.sh
+[35.369s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/ament_prefix_path.dsv
+[35.371s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/path.sh
+[35.372s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/environment/path.dsv
+[35.373s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/local_setup.bash
+[35.374s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/local_setup.sh
+[35.376s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/local_setup.zsh
+[35.377s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/local_setup.dsv
+[35.378s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/package.dsv
+[35.379s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/ament_index/resource_index/packages/diy_robotarm_wer24_driver
+[35.381s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diy_robotarm_wer24_driver
+[35.382s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.383s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[35.384s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.385s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/cmake/diy_robotarm_wer24_driverConfig.cmake
+[35.386s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/cmake/diy_robotarm_wer24_driverConfig-version.cmake
+[35.387s] -- Installing: /home/joaco/proy_ws/install/diy_robotarm_wer24_driver/share/diy_robotarm_wer24_driver/package.xml
+[35.402s] Invoked command in '/home/joaco/proy_ws/build/diy_robotarm_wer24_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_robotarm_wer24_driver

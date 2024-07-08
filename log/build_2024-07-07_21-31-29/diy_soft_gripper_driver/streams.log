@@ -1,0 +1,93 @@
+[0.048s] Invoking command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_gripper_driver -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_soft_gripper_driver
+[0.290s] -- The C compiler identification is GNU 11.4.0
+[0.510s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.844s] -- Detecting C compiler ABI info - done
+[0.865s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.865s] -- Detecting C compile features
+[0.867s] -- Detecting C compile features - done
+[0.875s] -- Detecting CXX compiler ABI info
+[1.267s] -- Detecting CXX compiler ABI info - done
+[1.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.292s] -- Detecting CXX compile features
+[1.294s] -- Detecting CXX compile features - done
+[1.317s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.935s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.555s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[2.999s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.063s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.130s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.018s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.059s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.747s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.877s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.090s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.214s] -- Looking for pthread.h
+[5.575s] -- Looking for pthread.h - found
+[5.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.934s] -- Found Threads: TRUE  
+[6.667s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[6.789s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.204s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.204s] -- Configured cppcheck include dirs: /home/joaco/proy_ws/src/my_gripper_driver/include
+[7.204s] -- Configured cppcheck exclude dirs and/or files: 
+[7.209s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.214s] -- Added test 'lint_cmake' to check CMake code style
+[7.219s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.227s] -- Added test 'uncrustify' to check C / C++ code style
+[7.227s] -- Configured uncrustify additional arguments: 
+[7.232s] -- Added test 'xmllint' to check XML markup files
+[7.247s] -- Configuring done
+[7.292s] -- Generating done
+[7.298s] -- Build files have been written to: /home/joaco/proy_ws/build/diy_soft_gripper_driver
+[7.377s] Invoked command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_gripper_driver -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_soft_gripper_driver
+[7.378s] Invoking command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_soft_gripper_driver -- -j3 -l3
+[7.693s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/gripper_service_server.cpp.o[0m
+[7.701s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/gripper_service_test_client.cpp.o[0m
+[19.237s] In file included from [01m[K/home/joaco/proy_ws/src/my_gripper_driver/include/diy_soft_gripper_driver/RobotConnection.hpp:20[m[K,
+[19.237s]                  from [01m[K/home/joaco/proy_ws/src/my_gripper_driver/src/gripper_service_server.cpp:2[m[K:
+[19.238s] [01m[K/home/joaco/proy_ws/src/my_gripper_driver/include/diy_soft_gripper_driver/DataFormat.hpp:23:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.238s]    23 |     struct __attribute__((packed)) [01;35m[K{[m[K
+[19.238s]       |                                    [01;35m[K^[m[K
+[19.238s] [01m[K/home/joaco/proy_ws/src/my_gripper_driver/include/diy_soft_gripper_driver/DataFormat.hpp:37:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.238s]    37 |     struct __attribute__((packed)) [01;35m[K{[m[K
+[19.239s]       |                                    [01;35m[K^[m[K
+[25.007s] [ 75%] [32m[1mLinking CXX executable server[0m
+[25.657s] [100%] [32m[1mLinking CXX executable client[0m
+[26.035s] [100%] Built target server
+[26.633s] [100%] Built target client
+[26.688s] Invoked command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_soft_gripper_driver -- -j3 -l3
+[26.908s] Invoking command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_soft_gripper_driver
+[26.951s] -- Install configuration: ""
+[26.953s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/lib/diy_soft_gripper_driver/server
+[26.956s] -- Set runtime path of "/home/joaco/proy_ws/install/diy_soft_gripper_driver/lib/diy_soft_gripper_driver/server" to ""
+[26.957s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/lib/diy_soft_gripper_driver/client
+[26.960s] -- Set runtime path of "/home/joaco/proy_ws/install/diy_soft_gripper_driver/lib/diy_soft_gripper_driver/client" to ""
+[26.962s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/include/include
+[26.963s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/include/include/diy_soft_gripper_driver
+[26.963s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/include/include/diy_soft_gripper_driver/helpers.hpp
+[26.964s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/include/include/diy_soft_gripper_driver/DataFormat.hpp
+[26.965s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/include/include/diy_soft_gripper_driver/RobotConnection.hpp
+[26.966s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver//launch
+[26.967s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver//launch/test_controller.launch.py
+[26.968s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver//launch/controller.launch.py
+[26.969s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/ament_index/resource_index/package_run_dependencies/diy_soft_gripper_driver
+[26.971s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/ament_index/resource_index/parent_prefix_path/diy_soft_gripper_driver
+[26.972s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/environment/ament_prefix_path.sh
+[26.973s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/environment/ament_prefix_path.dsv
+[26.974s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/environment/path.sh
+[26.976s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/environment/path.dsv
+[26.977s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/local_setup.bash
+[26.977s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/local_setup.sh
+[26.978s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/local_setup.zsh
+[26.979s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/local_setup.dsv
+[26.980s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/package.dsv
+[26.981s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/ament_index/resource_index/packages/diy_soft_gripper_driver
+[26.982s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.983s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/cmake/diy_soft_gripper_driverConfig.cmake
+[26.984s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/cmake/diy_soft_gripper_driverConfig-version.cmake
+[26.985s] -- Installing: /home/joaco/proy_ws/install/diy_soft_gripper_driver/share/diy_soft_gripper_driver/package.xml
+[26.995s] Invoked command in '/home/joaco/proy_ws/build/diy_soft_gripper_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_soft_gripper_driver

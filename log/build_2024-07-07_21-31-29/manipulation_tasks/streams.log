@@ -1,0 +1,120 @@
+[2.739s] Invoking command in '/home/joaco/proy_ws/src/my_robot_moveit/py_dependencies/manipulation_tasks': PYTHONPATH=/home/joaco/proy_ws/build/manipulation_tasks/prefix_override:/home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/manipulation_tasks build --build-base /home/joaco/proy_ws/build/manipulation_tasks/build install --record /home/joaco/proy_ws/build/manipulation_tasks/install.log --single-version-externally-managed
+[3.515s] running egg_info
+[3.519s] creating ../../../../build/manipulation_tasks/manipulation_tasks.egg-info
+[3.521s] writing ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/PKG-INFO
+[3.525s] writing dependency_links to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/dependency_links.txt
+[3.527s] writing requirements to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/requires.txt
+[3.528s] writing top-level names to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/top_level.txt
+[3.530s] writing manifest file '../../../../build/manipulation_tasks/manipulation_tasks.egg-info/SOURCES.txt'
+[3.538s] reading manifest file '../../../../build/manipulation_tasks/manipulation_tasks.egg-info/SOURCES.txt'
+[3.539s] adding license file 'LICENSE'
+[3.542s] writing manifest file '../../../../build/manipulation_tasks/manipulation_tasks.egg-info/SOURCES.txt'
+[3.543s] running build
+[3.543s] running build_py
+[3.545s] creating /home/joaco/proy_ws/build/manipulation_tasks/build
+[3.545s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib
+[3.546s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.546s] copying manipulation_tasks/sensor.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.547s] copying manipulation_tasks/transform.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.549s] copying manipulation_tasks/object.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.550s] copying manipulation_tasks/loader.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.551s] copying manipulation_tasks/task.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.552s] copying manipulation_tasks/scene.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.554s] copying manipulation_tasks/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.554s] copying manipulation_tasks/primitive.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.555s] copying manipulation_tasks/geometric_utils.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.556s] copying manipulation_tasks/dataclasses.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.556s] copying manipulation_tasks/factory.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.557s] copying manipulation_tasks/oracle.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks
+[3.558s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins
+[3.558s] copying manipulation_tasks/plugins/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins
+[3.559s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils
+[3.560s] copying manipulation_tasks/transform_utils/random.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils
+[3.561s] copying manipulation_tasks/transform_utils/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils
+[3.562s] copying manipulation_tasks/transform_utils/differences.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils
+[3.563s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/primitives
+[3.563s] copying manipulation_tasks/plugins/primitives/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/primitives
+[3.564s] copying manipulation_tasks/plugins/primitives/pick_and_place.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/primitives
+[3.565s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/objects
+[3.566s] copying manipulation_tasks/plugins/objects/base.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/objects
+[3.567s] copying manipulation_tasks/plugins/objects/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/objects
+[3.568s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.569s] copying manipulation_tasks/plugins/tasks/grasp_task.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.570s] copying manipulation_tasks/plugins/tasks/box_packing_task.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.571s] copying manipulation_tasks/plugins/tasks/simple_task.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.572s] copying manipulation_tasks/plugins/tasks/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.573s] copying manipulation_tasks/plugins/tasks/kitting_task.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks
+[3.574s] creating /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles
+[3.575s] copying manipulation_tasks/plugins/oracles/__init__.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles
+[3.576s] copying manipulation_tasks/plugins/oracles/insertion.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles
+[3.577s] copying manipulation_tasks/plugins/oracles/suction_grasp.py -> /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles
+[3.580s] running install
+[3.582s] running install_lib
+[3.586s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.587s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/sensor.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.587s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.588s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins
+[3.589s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/primitives
+[3.595s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/primitives/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/primitives
+[3.598s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/primitives/pick_and_place.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/primitives
+[3.599s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/objects
+[3.599s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/objects/base.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/objects
+[3.599s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/objects/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/objects
+[3.599s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.600s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks/grasp_task.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.600s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks/box_packing_task.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.600s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks/simple_task.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.601s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.601s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/tasks/kitting_task.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks
+[3.601s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles
+[3.602s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles
+[3.604s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles/insertion.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles
+[3.604s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/oracles/suction_grasp.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles
+[3.604s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/plugins/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins
+[3.605s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/object.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.605s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/loader.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.605s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/task.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.606s] creating /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils
+[3.606s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils/random.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils
+[3.606s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils
+[3.609s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/transform_utils/differences.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils
+[3.610s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/scene.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.610s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/__init__.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.610s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/primitive.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.610s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/geometric_utils.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.611s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/dataclasses.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.611s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/factory.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.611s] copying /home/joaco/proy_ws/build/manipulation_tasks/build/lib/manipulation_tasks/oracle.py -> /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks
+[3.617s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/sensor.py to sensor.cpython-310.pyc
+[3.617s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform.py to transform.cpython-310.pyc
+[3.618s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/primitives/__init__.py to __init__.cpython-310.pyc
+[3.619s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/primitives/pick_and_place.py to pick_and_place.cpython-310.pyc
+[3.621s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/objects/base.py to base.cpython-310.pyc
+[3.629s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/objects/__init__.py to __init__.cpython-310.pyc
+[3.630s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks/grasp_task.py to grasp_task.cpython-310.pyc
+[3.634s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks/box_packing_task.py to box_packing_task.cpython-310.pyc
+[3.641s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks/simple_task.py to simple_task.cpython-310.pyc
+[3.646s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks/__init__.py to __init__.cpython-310.pyc
+[3.647s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/tasks/kitting_task.py to kitting_task.cpython-310.pyc
+[3.653s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles/__init__.py to __init__.cpython-310.pyc
+[3.656s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles/insertion.py to insertion.cpython-310.pyc
+[3.660s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/oracles/suction_grasp.py to suction_grasp.cpython-310.pyc
+[3.664s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/plugins/__init__.py to __init__.cpython-310.pyc
+[3.665s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/object.py to object.cpython-310.pyc
+[3.667s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/loader.py to loader.cpython-310.pyc
+[3.669s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/task.py to task.cpython-310.pyc
+[3.672s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils/random.py to random.cpython-310.pyc
+[3.674s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils/__init__.py to __init__.cpython-310.pyc
+[3.676s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/transform_utils/differences.py to differences.cpython-310.pyc
+[3.679s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/scene.py to scene.cpython-310.pyc
+[3.682s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/__init__.py to __init__.cpython-310.pyc
+[3.683s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/primitive.py to primitive.cpython-310.pyc
+[3.685s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/geometric_utils.py to geometric_utils.cpython-310.pyc
+[3.687s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/dataclasses.py to dataclasses.cpython-310.pyc
+[3.688s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/factory.py to factory.cpython-310.pyc
+[3.693s] byte-compiling /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks/oracle.py to oracle.cpython-310.pyc
+[3.695s] running install_egg_info
+[3.702s] Copying ../../../../build/manipulation_tasks/manipulation_tasks.egg-info to /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks-0.1.0-py3.10.egg-info
+[3.704s] running install_scripts
+[3.777s] writing list of installed files to '/home/joaco/proy_ws/build/manipulation_tasks/install.log'
+[3.909s] Invoked command in '/home/joaco/proy_ws/src/my_robot_moveit/py_dependencies/manipulation_tasks' returned '0': PYTHONPATH=/home/joaco/proy_ws/build/manipulation_tasks/prefix_override:/home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/manipulation_tasks build --build-base /home/joaco/proy_ws/build/manipulation_tasks/build install --record /home/joaco/proy_ws/build/manipulation_tasks/install.log --single-version-externally-managed

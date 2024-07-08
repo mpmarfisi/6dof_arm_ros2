@@ -1,0 +1,19 @@
+[2.482s] Invoking command in '/home/joaco/proy_ws/src/my_robot_moveit/py_dependencies/manipulation_tasks': PYTHONPATH=/home/joaco/proy_ws/build/manipulation_tasks/prefix_override:/home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/manipulation_tasks build --build-base /home/joaco/proy_ws/build/manipulation_tasks/build install --record /home/joaco/proy_ws/build/manipulation_tasks/install.log --single-version-externally-managed
+[3.576s] running egg_info
+[3.579s] writing ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/PKG-INFO
+[3.580s] writing dependency_links to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/dependency_links.txt
+[3.580s] writing requirements to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/requires.txt
+[3.581s] writing top-level names to ../../../../build/manipulation_tasks/manipulation_tasks.egg-info/top_level.txt
+[3.588s] reading manifest file '../../../../build/manipulation_tasks/manipulation_tasks.egg-info/SOURCES.txt'
+[3.588s] adding license file 'LICENSE'
+[3.600s] writing manifest file '../../../../build/manipulation_tasks/manipulation_tasks.egg-info/SOURCES.txt'
+[3.600s] running build
+[3.601s] running build_py
+[3.601s] running install
+[3.601s] running install_lib
+[3.608s] running install_egg_info
+[3.614s] removing '/home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks-0.1.0-py3.10.egg-info' (and everything under it)
+[3.614s] Copying ../../../../build/manipulation_tasks/manipulation_tasks.egg-info to /home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages/manipulation_tasks-0.1.0-py3.10.egg-info
+[3.616s] running install_scripts
+[3.681s] writing list of installed files to '/home/joaco/proy_ws/build/manipulation_tasks/install.log'
+[3.962s] Invoked command in '/home/joaco/proy_ws/src/my_robot_moveit/py_dependencies/manipulation_tasks' returned '0': PYTHONPATH=/home/joaco/proy_ws/build/manipulation_tasks/prefix_override:/home/joaco/proy_ws/install/manipulation_tasks/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/manipulation_tasks build --build-base /home/joaco/proy_ws/build/manipulation_tasks/build install --record /home/joaco/proy_ws/build/manipulation_tasks/install.log --single-version-externally-managed

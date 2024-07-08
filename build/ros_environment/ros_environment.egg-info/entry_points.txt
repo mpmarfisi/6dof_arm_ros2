@@ -1,0 +1,3 @@
+[console_scripts]
+joy_handler = ros_environment.joy_handler:main
+

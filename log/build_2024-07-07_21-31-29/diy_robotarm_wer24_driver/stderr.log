@@ -1,0 +1,74 @@
+In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:22[m[K,
+                 from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/data_format.hpp:23:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   23 |     struct __attribute__((packed)) [01;35m[K{[m[K
+      |                                    [01;35m[K^[m[K
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/data_format.hpp:37:36:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   37 |     struct __attribute__((packed)) [01;35m[K{[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::readData()[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:102:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  102 |     for (auto i = 0; [01;35m[Ki < hw_states_axisPositions.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:99:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KbytesReceived[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   99 |     int [01;35m[KbytesReceived[m[K = recv(socketConnection_, &response, sizeof(response), 0);
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::sendData()[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:114:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  114 |     for (auto i = 0; [01;35m[Ki < hw_cmd_axisSetpoints.size()[m[K; i++) {
+      |                      [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:9[m[K:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:110:55:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  110 |       RCLCPP_FATAL(rclcpp::get_logger("ESP32_Driver"),[01;35m[K"ERROR during Connection to Robot-IP %s"[m[K,  ssid.c_str(), ipAddress.c_str());
+      |                                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:95:97:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   95 |  ESP32Hardware::on_configure([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:167:96:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  167 | n ESP32Hardware::on_activate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn esp32_robot_driver::ESP32Hardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:176:98:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  176 | ESP32Hardware::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State& previous_state[m[K) {
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_robot_driver::ESP32Hardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:185:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  185 | erface::return_type ESP32Hardware::read([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:185:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  185 | dware::read(const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K) {
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type esp32_robot_driver::ESP32Hardware::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:193:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  193 | rface::return_type ESP32Hardware::write([01;35m[Kconst rclcpp::Time& time[m[K, const rclcpp::Duration& period) {
+      |                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:193:106:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  193 | ware::write(const rclcpp::Time& time, [01;35m[Kconst rclcpp::Duration& period[m[K) {
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+In file included from [01m[K/home/joaco/proy_ws/src/my_robot_driver/src/esp32_interface.cpp:15[m[K:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:[m[K In member function ‘[01m[Kbool RobotConnection::readData()[m[K’:
+[01m[K/home/joaco/proy_ws/src/my_robot_driver/include/esp32_robot_driver/robot_connection.hpp:105:3:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  105 |   [01;35m[K}[m[K
+      |   [01;35m[K^[m[K

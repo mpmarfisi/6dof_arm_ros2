@@ -1,0 +1,34 @@
+[0.128s] Invoking command in '/home/joaco/proy_ws/build/my_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_gripper_description -- -j3 -l3
+[0.373s] Invoked command in '/home/joaco/proy_ws/build/my_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/my_gripper_description -- -j3 -l3
+[0.570s] Invoking command in '/home/joaco/proy_ws/build/my_gripper_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_gripper_description
+[0.610s] -- Install configuration: ""
+[0.614s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//urdf
+[0.615s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//urdf/diy_gripper_model.urdf.xacro
+[0.616s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//urdf/diy_gripper_macro.urdf.xacro
+[0.617s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//urdf/materials.urdf.xacro
+[0.619s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//launch
+[0.619s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//launch/visualize.launch.py
+[0.621s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes
+[0.621s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes/collision
+[0.623s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes/collision/tool.stl
+[0.624s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes/visual
+[0.625s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes/visual/base_link.stl
+[0.625s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//meshes/visual/soft_finger.stl
+[0.625s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//rviz
+[0.630s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description//rviz/rviz_config.rviz
+[0.635s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/ament_index/resource_index/package_run_dependencies/my_gripper_description
+[0.636s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/ament_index/resource_index/parent_prefix_path/my_gripper_description
+[0.638s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/environment/ament_prefix_path.sh
+[0.638s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/environment/ament_prefix_path.dsv
+[0.639s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/environment/path.sh
+[0.644s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/environment/path.dsv
+[0.645s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/local_setup.bash
+[0.645s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/local_setup.sh
+[0.646s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/local_setup.zsh
+[0.646s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/local_setup.dsv
+[0.647s] -- Installing: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.dsv
+[0.648s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/ament_index/resource_index/packages/my_gripper_description
+[0.649s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/cmake/my_gripper_descriptionConfig.cmake
+[0.652s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/cmake/my_gripper_descriptionConfig-version.cmake
+[0.653s] -- Up-to-date: /home/joaco/proy_ws/install/my_gripper_description/share/my_gripper_description/package.xml
+[0.658s] Invoked command in '/home/joaco/proy_ws/build/my_gripper_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/my_gripper_description

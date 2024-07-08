@@ -1,0 +1,56 @@
+[0.088s] Invoking command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_robot_moveit/diy_robot_wer24_moveit -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_robot_wer24_moveit
+[0.459s] -- The C compiler identification is GNU 11.4.0
+[0.850s] -- The CXX compiler identification is GNU 11.4.0
+[0.933s] -- Detecting C compiler ABI info
+[1.283s] -- Detecting C compiler ABI info - done
+[1.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.318s] -- Detecting C compile features
+[1.318s] -- Detecting C compile features - done
+[1.328s] -- Detecting CXX compiler ABI info
+[1.713s] -- Detecting CXX compiler ABI info - done
+[1.742s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.742s] -- Detecting CXX compile features
+[1.744s] -- Detecting CXX compile features - done
+[1.786s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.449s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.215s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.634s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.639s] -- Added test 'lint_cmake' to check CMake code style
+[3.645s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.652s] -- Added test 'xmllint' to check XML markup files
+[3.665s] -- Configuring done
+[3.690s] -- Generating done
+[3.690s] -- Build files have been written to: /home/joaco/proy_ws/build/diy_robot_wer24_moveit
+[3.706s] Invoked command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake /home/joaco/proy_ws/src/my_robot_moveit/diy_robot_wer24_moveit -DCMAKE_INSTALL_PREFIX=/home/joaco/proy_ws/install/diy_robot_wer24_moveit
+[3.707s] Invoking command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_robot_wer24_moveit -- -j3 -l3
+[3.898s] Invoked command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --build /home/joaco/proy_ws/build/diy_robot_wer24_moveit -- -j3 -l3
+[4.035s] Invoking command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_robot_wer24_moveit
+[4.073s] -- Install configuration: ""
+[4.074s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//launch
+[4.078s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//launch/robot.launch.py
+[4.086s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//launch/complete.launch.py
+[4.086s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//config
+[4.086s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//config/controllers.yaml
+[4.086s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//config/ompl_planning.yaml
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//config/kinematics.yaml
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//srdf
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//srdf/robot.srdf.xacro
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//srdf/robot_macro.srdf.xacro
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//rviz
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit//rviz/rviz_config.rviz
+[4.087s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/ament_index/resource_index/package_run_dependencies/diy_robot_wer24_moveit
+[4.090s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/ament_index/resource_index/parent_prefix_path/diy_robot_wer24_moveit
+[4.090s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/environment/ament_prefix_path.sh
+[4.091s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/environment/ament_prefix_path.dsv
+[4.091s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/environment/path.sh
+[4.091s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/environment/path.dsv
+[4.091s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/local_setup.bash
+[4.091s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/local_setup.sh
+[4.092s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/local_setup.zsh
+[4.092s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/local_setup.dsv
+[4.092s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/package.dsv
+[4.092s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/ament_index/resource_index/packages/diy_robot_wer24_moveit
+[4.092s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/cmake/diy_robot_wer24_moveitConfig.cmake
+[4.093s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/cmake/diy_robot_wer24_moveitConfig-version.cmake
+[4.096s] -- Installing: /home/joaco/proy_ws/install/diy_robot_wer24_moveit/share/diy_robot_wer24_moveit/package.xml
+[4.106s] Invoked command in '/home/joaco/proy_ws/build/diy_robot_wer24_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joaco/ws_moveit2/install/moveit_configs_utils:/home/joaco/ws_moveit2/install/ros_environment:/home/joaco/ws_moveit2/install/launch_param_builder:/home/joaco/ws_moveit2/install/diy_robot_application:/opt/ros/humble /usr/bin/cmake --install /home/joaco/proy_ws/build/diy_robot_wer24_moveit

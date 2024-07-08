@@ -1,0 +1,67 @@
+[3.034s] Invoking command in '/home/joaco/proy_ws/src/my_robot_moveit/ros_environment': PYTHONPATH=/home/joaco/proy_ws/build/ros_environment/prefix_override:/home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_environment build --build-base /home/joaco/proy_ws/build/ros_environment/build install --record /home/joaco/proy_ws/build/ros_environment/install.log --single-version-externally-managed install_data
+[3.866s] running egg_info
+[3.869s] creating ../../../build/ros_environment/ros_environment.egg-info
+[3.870s] writing ../../../build/ros_environment/ros_environment.egg-info/PKG-INFO
+[3.870s] writing dependency_links to ../../../build/ros_environment/ros_environment.egg-info/dependency_links.txt
+[3.871s] writing entry points to ../../../build/ros_environment/ros_environment.egg-info/entry_points.txt
+[3.871s] writing requirements to ../../../build/ros_environment/ros_environment.egg-info/requires.txt
+[3.872s] writing top-level names to ../../../build/ros_environment/ros_environment.egg-info/top_level.txt
+[3.873s] writing manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+[3.881s] reading manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+[3.884s] writing manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+[3.885s] running build
+[3.885s] running build_py
+[3.885s] creating /home/joaco/proy_ws/build/ros_environment/build
+[3.886s] creating /home/joaco/proy_ws/build/ros_environment/build/lib
+[3.886s] creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.886s] copying ros_environment/util.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.887s] copying ros_environment/robot.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.887s] copying ros_environment/joy_handler.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.888s] copying ros_environment/scene.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.889s] copying ros_environment/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+[3.889s] creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+[3.890s] copying ros_environment/lib/base_node.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+[3.890s] copying ros_environment/lib/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+[3.891s] creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+[3.892s] copying ros_environment/sensor/orthographic_projection.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+[3.902s] copying ros_environment/sensor/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+[3.902s] copying ros_environment/sensor/camera.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+[3.903s] running install
+[3.903s] running install_lib
+[3.903s] creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.904s] creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+[3.904s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib/base_node.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+[3.904s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+[3.904s] creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+[3.905s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/orthographic_projection.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+[3.906s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+[3.907s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/camera.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+[3.908s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/util.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.910s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/robot.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.911s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/joy_handler.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.913s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/scene.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.914s] copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+[3.917s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib/base_node.py to base_node.cpython-310.pyc
+[3.919s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib/__init__.py to __init__.cpython-310.pyc
+[3.921s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/orthographic_projection.py to orthographic_projection.cpython-310.pyc
+[3.926s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/__init__.py to __init__.cpython-310.pyc
+[3.928s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/camera.py to camera.cpython-310.pyc
+[3.932s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/util.py to util.cpython-310.pyc
+[3.934s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/robot.py to robot.cpython-310.pyc
+[3.938s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/joy_handler.py to joy_handler.cpython-310.pyc
+[3.941s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/scene.py to scene.cpython-310.pyc
+[3.944s] byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/__init__.py to __init__.cpython-310.pyc
+[3.945s] running install_data
+[3.946s] creating /home/joaco/proy_ws/install/ros_environment/share/ament_index
+[3.947s] creating /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index
+[3.947s] creating /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index/packages
+[3.948s] copying resource/ros_environment -> /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index/packages
+[3.949s] copying package.xml -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+[3.950s] copying launch/joy_handler.launch.py -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+[3.950s] copying launch/joy_node.launch.py -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+[3.951s] running install_egg_info
+[3.957s] Copying ../../../build/ros_environment/ros_environment.egg-info to /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment-0.0.0-py3.10.egg-info
+[3.961s] running install_scripts
+[4.075s] Installing joy_handler script to /home/joaco/proy_ws/install/ros_environment/lib/ros_environment
+[4.079s] writing list of installed files to '/home/joaco/proy_ws/build/ros_environment/install.log'
+[4.186s] Invoked command in '/home/joaco/proy_ws/src/my_robot_moveit/ros_environment' returned '0': PYTHONPATH=/home/joaco/proy_ws/build/ros_environment/prefix_override:/home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/ros_environment build --build-base /home/joaco/proy_ws/build/ros_environment/build install --record /home/joaco/proy_ws/build/ros_environment/install.log --single-version-externally-managed install_data

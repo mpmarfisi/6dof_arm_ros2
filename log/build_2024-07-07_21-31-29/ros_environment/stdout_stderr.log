@@ -1,0 +1,65 @@
+running egg_info
+creating ../../../build/ros_environment/ros_environment.egg-info
+writing ../../../build/ros_environment/ros_environment.egg-info/PKG-INFO
+writing dependency_links to ../../../build/ros_environment/ros_environment.egg-info/dependency_links.txt
+writing entry points to ../../../build/ros_environment/ros_environment.egg-info/entry_points.txt
+writing requirements to ../../../build/ros_environment/ros_environment.egg-info/requires.txt
+writing top-level names to ../../../build/ros_environment/ros_environment.egg-info/top_level.txt
+writing manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+reading manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+writing manifest file '../../../build/ros_environment/ros_environment.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/joaco/proy_ws/build/ros_environment/build
+creating /home/joaco/proy_ws/build/ros_environment/build/lib
+creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+copying ros_environment/util.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+copying ros_environment/robot.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+copying ros_environment/joy_handler.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+copying ros_environment/scene.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+copying ros_environment/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment
+creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+copying ros_environment/lib/base_node.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+copying ros_environment/lib/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib
+creating /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+copying ros_environment/sensor/orthographic_projection.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+copying ros_environment/sensor/__init__.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+copying ros_environment/sensor/camera.py -> /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor
+running install
+running install_lib
+creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib/base_node.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/lib/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib
+creating /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/orthographic_projection.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/sensor/camera.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/util.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/robot.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/joy_handler.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/scene.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+copying /home/joaco/proy_ws/build/ros_environment/build/lib/ros_environment/__init__.py -> /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib/base_node.py to base_node.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/lib/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/orthographic_projection.py to orthographic_projection.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/sensor/camera.py to camera.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/util.py to util.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/robot.py to robot.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/joy_handler.py to joy_handler.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/scene.py to scene.cpython-310.pyc
+byte-compiling /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/joaco/proy_ws/install/ros_environment/share/ament_index
+creating /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index
+creating /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index/packages
+copying resource/ros_environment -> /home/joaco/proy_ws/install/ros_environment/share/ament_index/resource_index/packages
+copying package.xml -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+copying launch/joy_handler.launch.py -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+copying launch/joy_node.launch.py -> /home/joaco/proy_ws/install/ros_environment/share/ros_environment
+running install_egg_info
+Copying ../../../build/ros_environment/ros_environment.egg-info to /home/joaco/proy_ws/install/ros_environment/lib/python3.10/site-packages/ros_environment-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_handler script to /home/joaco/proy_ws/install/ros_environment/lib/ros_environment
+writing list of installed files to '/home/joaco/proy_ws/build/ros_environment/install.log'

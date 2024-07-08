@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+
+<!--this file dontains all of the specification to set up ros2_control and establish an hardwareinterface to the esp (robotics hardware, stepperdriver)-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<!--#######################################################################################################################################-->
+<!--define parameters for ros2_control configuration-->
+<!--#######################################################################################################################################-->
+    <xacro:macro name="wer24_ros2_control" params="
+        name
+        use_fake_hardware:=false
+        fake_sensor_commands:=false
+        initial_positions:=${dict(shoulder=0.0,upper_arm=0.0,forearm=0.0,wrist_1=0.0,wrist_2=0.0,wrist_3=0.0)}
+        tf_prefix
+        robot_ip
+        robot_ssid
+        ">
+
+<!--#######################################################################################################################################-->
+<!--build ros2_control hardware configuration, these parameters are stored in info_ and get called in the esp32_inteerface (driver package)-->
+<!--#######################################################################################################################################-->
+        <ros2_control name="${name}" type="system"> <!--System means that there is a complex multi-axis hardware (read and write capabilities)-->
+        <!--load hardware or simulation plugins-->
+            <hardware>
+                <xacro:if value="${use_fake_hardware}">
+                   <plugin>mock_components/GenericSystem</plugin>
+                   <param name="fake_sensor_commands">${fake_sensor_commands}</param>
+                   <param name="state_following_offset">0.0</param>
+                </xacro:if>
+                <!--unless no simulation is required, use real hardware-->
+                <xacro:unless value="${use_fake_hardware}">
+                    <plugin>esp32_robot_driver/ESP32Hardware</plugin>    <!--call our plugin for interfacing with the esp (this is the Driver!)-->
+                    <param name="robot_ip">${robot_ip}</param>
+                    <param name="robot_ssid">${robot_ssid}</param>
+                    <param name="tf_prefix">${tf_prefix}</param>
+                </xacro:unless>
+            </hardware>
+
+            <!--define interfaces for each joint-->
+            <joint name="${tf_prefix}shoulder">
+                <!--define command interface PcToRobot-->
+                <command_interface name="position">
+                    <param name="min">{-pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                    <!--define state interface RobotToPC (NOTE: our Hardware is an open-loop control system!)-->
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["shoulder"]}</param>
+                </state_interface>
+            </joint>
+
+            <joint name="${tf_prefix}upper_arm">
+                <command_interface name="position">
+                    <param name="min">{-*pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["upper_arm"]}</param>
+                </state_interface>
+            </joint>
+
+            <joint name="${tf_prefix}forearm">
+                <command_interface name="position">
+                    <param name="min">{-pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["forearm"]}</param>
+                </state_interface>
+            </joint>
+
+            <joint name="${tf_prefix}wrist_1">
+                <command_interface name="position">
+                    <param name="min">{-pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["wrist_1"]}</param>
+                </state_interface>
+            </joint>
+
+            <joint name="${tf_prefix}wrist_2">
+                <command_interface name="position">
+                    <param name="min">{-pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["wrist_2"]}</param>
+                </state_interface>
+            </joint>
+            
+            <joint name="${tf_prefix}wrist_3">
+                <command_interface name="position">
+                    <param name="min">{-pi}</param>
+                    <param name="max">{pi}</param>
+                </command_interface>
+                <state_interface name="position">
+                <!-- initial position for the FakeSystem and simulation -->
+                    <param name="initial_value">${initial_positions["wrist_3"]}</param>
+                </state_interface>
+            </joint>
+
+        </ros2_control>
+    </xacro:macro>
+</robot>
